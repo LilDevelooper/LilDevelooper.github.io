@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CepteKumbara Destek</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --gray-100: #f4f4f7;
+      --gray-600: #4b5563;
+      --gray-300: #d1d5db;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--gray-100);
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      border-bottom: 1px solid var(--gray-300);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      color: #1f2937;
+      border-left: 4px solid var(--primary);
+      padding-left: 0.75rem;
+    }
+    p, ul {
+      margin-top: 1rem;
+      color: #374151;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    li + li {
+      margin-top: 0.5rem;
+    }
+    strong { color: #111827; }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      color: var(--gray-600);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CepteKumbara Destek</h1>
+    <p style="color: var(--gray-600); margin-top: 0.25rem; font-size:0.95rem;">
+      Sorun mu yaşıyorsunuz? Hızlıca çözüm bulun!
+    </p>
+  </header>
+
+  <main>
+    <p>Merhaba! Yardıma mı ihtiyacınız var? Aşağıdaki bölümlerden sorununuza hızlıca çözüm bulabilirsiniz.</p>
+
+    <h2>📧 İletişim</h2>
+    <ul>
+      <li><strong>E-posta:</strong> <a href="mailto:yunusemre.vural@outlook.com">yunusemre.vural@outlook.com</a></li>
+    </ul>
+    <p>
+      Sorununuzu mümkün olduğunca ayrıntılı anlatın; ekran görüntüsü veya adım adım repro da ekleyebilirsiniz.
+    </p>
+
+    <h2>🛠 Sıkça Sorulan Sorular (SSS)</h2>
+
+    <h3 style="margin-top:1.5rem; font-size:1.1rem; color:#1f2937;">Abonelikim görünmüyor / satın alma butonu pasif</h3>
+    <ul>
+      <li>İnternet bağlantınızı kontrol edin.</li>
+      <li>App Store hesabınızın doğru sandbox/gerçek hesaba bağlı olduğundan emin olun.</li>
+      <li>Uygulamayı kapatıp yeniden açın.</li>
+    </ul>
+
+    <h3 style="margin-top:1.5rem; font-size:1.1rem; color:#1f2937;">Reklamlar kaldırılmadı</h3>
+    <ul>
+      <li>“Premium’a Geç” işlemini tamamladıktan sonra uygulamayı kapatıp tekrar açın.</li>
+      <li>Ayarlar → Restore Purchases butonunu kullanın.</li>
+    </ul>
+
+    <h3 style="margin-top:1.5rem; font-size:1.1rem; color:#1f2937;">Uygulama çöküyor / hata alıyorum</h3>
+    <ul>
+      <li>Hatalı senaryo: ne zaman, hangi ekranda oluyor?</li>
+      <li>Cihaz modeli ve iOS sürümü bilgilerini paylaşın.</li>
+      <li>Xcode konsol çıktısı veya ekran görüntüsü ekleyin.</li>
+    </ul>
+
+    <h2>🐞 Hata Bildir</h2>
+    <p>
+      Lütfen aşağıdaki bilgileri e-posta olarak gönderin:
+    </p>
+    <ul>
+      <li>Uygulama sürümü: v1.0 (3)</li>
+      <li>Cihaz modeli (örn. iPhone 12 Pro) ve iOS sürümü</li>
+      <li>Yaşadığınız adımlar / yeniden üretme (reproduction) adımları</li>
+      <li>Ekran görüntüsü veya kısa video (tercihen .mp4)</li>
+    </ul>
+
+    <h2>📢 Geri Bildirim &amp; Öneriler</h2>
+    <p>
+      Yeni özellik önerileriniz için de her zaman açığız! “Feature Request” olarak belirtir, nasıl çalışmasını istediğinizi anlatarak gönderirseniz, değerlendirelim.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Yunus Emre Vural
+  </footer>
+
+</body>
+</html>
