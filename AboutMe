@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hakkımda – CepteKumbara</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --gray-100: #f4f4f7;
+      --gray-600: #4b5563;
+      --gray-300: #d1d5db;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--gray-100);
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      border-bottom: 1px solid var(--gray-300);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      color: #1f2937;
+      border-left: 4px solid var(--primary);
+      padding-left: 0.75rem;
+    }
+    p, ul {
+      margin-top: 1rem;
+      color: #374151;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      color: var(--gray-600);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hakkımda</h1>
+  </header>
+
+  <main>
+    <p>
+      Merhaba! 👋
+    </p>
+    <p>
+      Ben <strong>Yunus Emre Vural</strong>, Türkiye’de yaşayan bir yazılım geliştiricisiyim.
+    </p>
+    <p>
+      <strong>CepteKumbara</strong>, kişisel ihtiyaçtan doğmuş bir mobil uygulamadır.  
+      Günlük küçük birikimlerinizi takip etmek, hedeflerinize ulaşmak için motive olmak amacıyla geliştirildi.
+    </p>
+    <p>
+      Amacım; sade, güvenilir ve reklama boğmayan bir kullanıcı deneyimi sunmak.
+    </p>
+
+    <h2>Uygulama Hakkında</h2>
+    <ul>
+      <li>Tüm veriler cihazınızda yerel olarak saklanır.</li>
+      <li>Uygulama kişisel verilerinizi toplamaz.</li>
+      <li>Reklamlar, uygulamanın ücretsiz sürümünü sürdürebilmek içindir.</li>
+      <li>Premium sürüm ile reklamsız ve sınırsız hedef özelliğini açabilirsiniz.</li>
+    </ul>
+
+    <h2>İletişim</h2>
+    <p>
+      📩 Bana her zaman yazabilirsiniz:<br/>
+      <a href="mailto:yunusemre.vural@outlook.com">yunusemre.vural@outlook.com</a>
+    </p>
+    <p>
+      Geri bildirimleriniz ve önerileriniz benim için çok değerli.
+    </p>
+
+    <p>
+      Sevgiler,<br/>
+      <strong>Emre</strong>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Yunus Emre Vural. Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
