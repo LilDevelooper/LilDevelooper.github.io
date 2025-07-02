@@ -2,80 +2,140 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kullanım Koşulları - CepteKumbara</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kullanım Koşulları – CepteKumbara</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
   <style>
+    :root {
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --gray-100: #f4f4f7;
+      --gray-600: #4b5563;
+      --gray-300: #d1d5db;
+    }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background: #f0fdf4;
-      color: #1e3a1e;
-      padding: 2rem;
-      line-height: 1.7;
+      background: var(--gray-100);
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      border-bottom: 1px solid var(--gray-300);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    main {
       max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    h1, h2 {
-      color: #14532d;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 1rem;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       margin-top: 2rem;
+      font-weight: 600;
+      color: #1f2937;
+      border-left: 4px solid var(--primary);
+      padding-left: 0.75rem;
     }
-    p, li {
-      font-size: 1rem;
-      margin-bottom: 1rem;
+    p, ul {
+      margin-top: 1rem;
+      color: #374151;
+    }
+    ul {
+      padding-left: 1.25rem;
     }
     a {
-      color: #059669;
+      color: var(--primary);
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      color: var(--gray-600);
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Kullanım Koşulları</h1>
-  <p><strong>Yürürlük Tarihi: 24.06.2025</strong></p>
-  <p>Bu kullanım koşulları, CepteKumbara mobil uygulamasını (bundan sonra “Uygulama” olarak anılacaktır) kullanmanız için geçerlidir. Uygulamayı kullanarak bu koşulları kabul etmiş olursunuz. Koşulları kabul etmiyorsanız lütfen uygulamayı kullanmayınız.</p>
 
-  <h2>1. Hizmet Tanımı</h2>
-  <p>CepteKumbara, kullanıcıların birikim hedefleri oluşturmasına, hedeflerine para ekleyip çıkarmasına, geçmiş işlemleri takip etmesine ve görsel olarak motive edici içeriklerle desteklenmesine yardımcı olan kişisel finans uygulamasıdır.</p>
+  <header>
+    <h1>Kullanım Koşulları</h1>
+    <p style="color: var(--gray-600); margin-top: 0.25rem; font-size:0.95rem;">
+      Yürürlük Tarihi: 24.06.2025
+    </p>
+  </header>
 
-  <h2>2. Kullanım Şartları</h2>
-  <ul>
-    <li>Uygulama yalnızca bireysel ve yasal amaçlarla kullanılabilir.</li>
-    <li>Uygulama üzerinden yapılan tüm işlemler kullanıcı sorumluluğundadır.</li>
-    <li>Uygulamanın sunduğu bilgiler finansal tavsiye niteliği taşımaz.</li>
-  </ul>
+  <main>
+    <p>
+      Bu kullanım koşulları, <strong>CepteKumbara</strong> mobil uygulamasını (bundan sonra “Uygulama” olarak anılacaktır) kullanmanız için geçerlidir.
+      Uygulamayı kullanarak bu koşulları kabul etmiş olursunuz. Koşulları kabul etmiyorsanız lütfen uygulamayı kullanmayınız.
+    </p>
 
-  <h2>3. Satın Alımlar ve Abonelik</h2>
-  <ul>
-    <li>Uygulama içerisinde Premium sürüm satın alabilirsiniz.</li>
-    <li>Premium ile reklamlar kaldırılır ve sınırsız hedef eklenebilir.</li>
-    <li>Satın alımlar Apple tarafından yönetilir.</li>
-    <li>İptal/iade işlemleri App Store politikalarına tabidir.</li>
-  </ul>
+    <h2>1. Hizmet Tanımı</h2>
+    <p>
+      CepteKumbara, kullanıcıların birikim hedefleri oluşturmasına, hedeflerine para ekleyip çıkarmasına,
+      geçmiş işlemleri takip etmesine ve görsel olarak motive edici içeriklerle desteklenmesine yardımcı olan kişisel finans uygulamasıdır.
+    </p>
 
-  <h2>4. Gizlilik</h2>
-  <p>Uygulama, kullanıcı verilerini cihazda yerel olarak saklar. Veriler üçüncü taraflarla paylaşılmaz.</p>
-  <p>Detaylı bilgi için <a href="https://ceptekumbara.com.tr/PrivacyPolicy.html" target="_blank">Gizlilik Politikası</a> sayfasını inceleyin.</p>
+    <h2>2. Kullanım Şartları</h2>
+    <ul>
+      <li>Uygulama yalnızca bireysel ve yasal amaçlarla kullanılabilir.</li>
+      <li>Uygulama üzerinden yapılan tüm işlemler kullanıcı sorumluluğundadır.</li>
+      <li>Uygulamanın sunduğu bilgiler finansal tavsiye niteliği taşımaz.</li>
+    </ul>
 
-  <h2>5. Sorumluluk Reddi</h2>
-  <p>Uygulama “olduğu gibi” sunulmaktadır. Kullanımdan doğabilecek doğrudan ya da dolaylı zararlardan geliştirici sorumlu tutulamaz.</p>
+    <h2>3. Satın Alımlar ve Abonelik</h2>
+    <ul>
+      <li>Uygulama içerisinde Premium sürüm satın alabilirsiniz.</li>
+      <li>Premium ile reklamlar kaldırılır ve sınırsız hedef eklenebilir.</li>
+      <li>Satın alımlar Apple tarafından yönetilir.</li>
+      <li>İptal/iade işlemleri App Store politikalarına tabidir.</li>
+    </ul>
 
-  <h2>6. Koşulların Güncellenmesi</h2>
-  <p>Geliştirici, kullanım koşullarını önceden bildirmeksizin değiştirme hakkını saklı tutar. Güncellemeler uygulama içinde duyurulur.</p>
+    <h2>4. Gizlilik</h2>
+    <p>
+      Uygulama, kullanıcı verilerini cihazda yerel olarak saklar. Veriler üçüncü taraflarla paylaşılmaz.
+      Detaylı bilgi için <a href="https://ceptekumbara.com.tr/PrivacyPolicy.html" target="_blank">Gizlilik Politikası</a> sayfasını inceleyin.
+    </p>
 
-  <h2>7. İletişim</h2>
-  <p>Her türlü soru ve geri bildirim için:</p>
-  <p>📧 <strong>yunusemre.vural@outlook.com</strong></p>
+    <h2>5. Sorumluluk Reddi</h2>
+    <p>
+      Uygulama “olduğu gibi” sunulmaktadır. Kullanımdan doğabilecek doğrudan ya da dolaylı zararlardan geliştirici sorumlu tutulamaz.
+    </p>
+
+    <h2>6. Koşulların Güncellenmesi</h2>
+    <p>
+      Geliştirici, kullanım koşullarını önceden bildirmeksizin değiştirme hakkını saklı tutar. Güncellemeler uygulama içinde duyurulur.
+    </p>
+
+    <h2>7. İletişim</h2>
+    <p>
+      Her türlü soru ve geri bildirim için:<br/>
+      📧 <a href="mailto:yunusemre.vural@outlook.com">yunusemre.vural@outlook.com</a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Yunus Emre Vural. Tüm hakları saklıdır.
+  </footer>
+
 </body>
 </html>
